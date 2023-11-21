@@ -11,6 +11,8 @@
 - seaborn 0.12.2
 - scikit-learn 1.0.2
 
+## Experimental Setting
+All the experiments are performed by running PyTorch on a GPU machine at Nvidia GeForce RTX 2080 Ti. For all datasets, we use the public data segmentation provided by Geom-gcn, averaging an average train/val/test split ratio of 60%/20%/20% nodes per class. For fairness, all models report means with standard deviations over 10 random splits. We use the Adam optimizer and 1000 epochs to train our model and baselines.
 
 ## Node classification on real-world datasets (./data)
 We evaluate the performance of AOSENet against the competitors on 10 real-world datasets.
