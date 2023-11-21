@@ -1,0 +1,10 @@
+python train.py   --dataset cora          --lr 0.08   --dropout 0.5  --weight_decay 5e-4   --l 3   --device 2
+python train.py   --dataset citeseer      --lr 0.09   --dropout 0.6  --weight_decay 5e-4   --l 1   --device 2
+python train.py   --dataset pubmed        --lr 0.04   --dropout 0.5  --weight_decay 5e-4   --l 3   --device 2
+python train.py   --dataset photo         --lr 0.03   --dropout 0.5  --weight_decay 5e-5   --l 1   --device 2
+python train.py   --dataset cornell       --lr 0.07   --dropout 0.5  --weight_decay 5e-4   --l 5   --device 2
+python train.py   --dataset chameleon     --lr 0.009  --dropout 0.5  --weight_decay 5e-4   --l 1   --device 2
+python train.py   --dataset wisconsin     --lr 0.5    --dropout 0.5  --weight_decay 5e-4   --l 1   --device 2
+python train.py   --dataset texas         --lr 0.05   --dropout 0.6  --weight_decay 5e-5   --l 1   --device 2
+python train.py   --dataset squirrel      --lr 0.009  --dropout 0.5  --weight_decay 5e-5   --l 1   --device 2
+python train.py   --dataset film          --lr 0.06   --dropout 0.7  --weight_decay 0.0    --l 1   --device 2
